@@ -1,0 +1,89 @@
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+body{
+  font-family:Roboto;
+}
+.m-11{
+    margin: 11px 0px;
+    border-radius: 0px;
+}
+.with-icons{
+  font-size: 27px;
+}
+.row{
+  width:100%;
+}
+#header{
+  background: #292e3f;
+}
+
+.header-logo img{
+  width:200px;
+  height:80px;
+  padding:5px;
+}
+.header-logo {
+  height: 90px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+}
+
+
+.navbar-primary.navbar-light{
+  background:#333a4d !important;
+  height:60px;
+}
+.navbar-primary.navbar-light li a{
+  font-size:14px;
+  font-family:Roboto;
+  text-transform:uppercase;
+  color: white !important;
+}
+.navbar-primary li{
+  padding: 0px 10px;
+  line-height: 2.6em;
+}
+.navbar-primary li.active a{
+  border-bottom: 2px solid #c18f59;
+}
+
+.nexxt{
+  background:#c18f59;
+  display:block;
+  height:100%;
+}
+
+.footer-area{
+    padding: 25px;
+    background : url('file:///C:/Users/user/Desktop/Libero/images/footer.jpg');
+}
+
+
+
+ .col-md-3:not(:last-child){
+                border-right:0.5px solid gray;
+                height:450px;
+                vertical-align:middle;
+                display: table-cell;
+
+            }
+
+          .li a{
+               color: red;
+    }
+.footer-section h3{
+    padding-top: 25px;
+    padding-left: 12px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.footer-section p{
+     margin-left:auto; 
+     margin-right:0;
+     padding-top: 25px;
+}
+
