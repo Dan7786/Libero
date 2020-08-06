@@ -68,9 +68,16 @@ body{
 
             }
 
-          .li a{
-               color: red;
-    }
+
+
+
+ .col-md-4:not(:last-child){
+                border-right:0.5px solid gray;
+                height:80px;
+                vertical-align:middle;
+                display: table-cell;
+            }
+
 .footer-section h3{
     padding-top: 25px;
     padding-left: 12px;
@@ -79,11 +86,14 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     vertical-align: middle;
+    margin-bottom: 30px;
+
 }
 
 .footer-section p{
      margin-left:auto; 
      margin-right:0;
      padding-top: 25px;
+     text-align: left;
 }
 
